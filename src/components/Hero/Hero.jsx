@@ -16,7 +16,7 @@ const Hero = () => {
       </div>
 
       <div className="hero_title">
-        <h1>Professional House Cleaning Services You Rely On</h1>
+        <h1>Professional House Cleaning Services You Can Rely On</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores facilis beatae illum sapiente dicta ut iure maxime, cumque molestiae quia?</p>
         <div className="hero_btn">
         Learn More

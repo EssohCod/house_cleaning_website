@@ -1,0 +1,107 @@
+.about{
+    padding: 160px 180px;
+    justify-content: center;
+    height: 100vh;
+}
+
+.about_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    height: 60%;
+    position: relative;
+    /* background-color: blue; */
+}
+
+/* ABOUT LEFT */
+.about_left{
+    background: #11aff8;
+    border-radius: 20px;
+    height: 100%;
+    color: #fff;
+}
+.about_left_down{
+    padding: 40px 40px;
+}
+.about_left_down h2{
+    margin-top: 130px;
+}
+
+
+/* ABOUT MIDDLLE */
+.about_middle{
+    border-radius: 20px;
+    height: 100%;
+}
+.about_middle .about_middle_top{
+    height: 50%;
+}
+.about_middle .about_middle_top img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    height: 100%;
+    display: block;
+}
+.about_middle_bottom{
+    padding: 0px 20px;
+}
+.about_middle_bottom h1{
+    /* margin-top: 30px; */
+}
+.about_middle_bottom h2{
+    /* margin-top: 30px; */
+}
+
+
+
+
+
+/* 
+.about_left .about_left_down{
+    color: #fff;
+    padding: 50px 40px;
+}
+.about_left .about_left_down h2{
+    width: 86%;
+    margin-top: 170px;
+}
+
+.about_middle_top img{
+    border-radius: 20px;
+    object-fit: cover;
+    display: block;
+}
+.about_middle_bottom{
+    padding: 0px 20px;
+}
+.about_middle_bottom h1{
+    margin-top: 16px;
+    color: #11aff8;
+}
+.about_middle_bottom h3{
+    margin-top: 20px;
+    color: #ffdb32;
+}
+.about_middle_bottom p{
+    margin-top: 5px;
+    width: 95%;
+}
+.about_right{
+    background: #fff;
+    border-radius: 20px;
+    height: 500px;
+}
+.about_right_top{
+    background: #ffdb32;
+    border-radius: 20px;
+    height: 250px;
+    padding: 20px 40px;
+    color: #fff;
+}
+.about_right_top h3{
+    margin-top: 100px;
+}
+.about_right_top p{
+    margin-top: 10px;
+} */
