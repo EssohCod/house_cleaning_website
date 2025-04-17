@@ -1,0 +1,43 @@
+.navbar{
+    position: absolute; /* Make it float over the image initially */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3; /* Above hero image & overlay */
+    background: transparent; /* Transparent so it sits over the image */
+    transition: background 0.3s ease;
+}
+.navbar.scrolled {
+  position: fixed; /* Fix it to the top on scroll */
+  background: #ffdb32; /* Solid background when scrolled */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.navbar_container{
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 170px;
+    color: #fff;
+}
+.navbar_logo h3 span {
+    color: #11aff8;
+}
+.navbar_link ul{
+    display: flex;
+    gap: 30px;
+    font-size: 17px;
+}
+.navbar_btn{
+    display: flex;
+    top: 0;
+    left: 0;
+}
+.navbar_btn{
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    background: none;
+    padding: 10px 40px;
+}
