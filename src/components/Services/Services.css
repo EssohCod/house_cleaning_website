@@ -1,0 +1,229 @@
+.services{
+    /* height: 90%; */
+    justify-content: center;
+}
+.service_tag_one{
+    padding: 100px 170px;
+    background: #ffdb30;
+}
+.services_container{
+    display: flex;
+    gap: 60px;
+}
+.services_left{
+    width: 650px;
+}
+.services_left_img img{
+    width: 400px;
+}
+.services_left_text {
+    margin-top: 40px;
+}
+.services_left_text p{
+    font-size: 18px;
+}
+.services_title h1{
+    color: #11aff8;
+}
+.services_title img{
+    width: 200px;
+    /* padding: 20px 0px; */
+    height: 4px;
+}
+.services_right_text h1{
+    font-size: 50px;
+    color: #fff;
+    line-height: 55px;
+    margin-bottom: 30px;
+}
+.services_right_text p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+
+/* .tag_two_imgBackground{
+    position: relative;
+    z-index: 0;
+}
+.tag_two_imgBackground img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.tag_two_imgBackground::after{
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+.tag_two_container{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    text-align: center;
+    z-index: 2;
+    margin-top: 70px;
+} */
+
+
+.service_tag_two {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tag_two_imgBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.tag_two_imgBackground img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Dark overlay on the image */
+.tag_two_imgBackground::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+/* Container for all content (title + cards) */
+.tag_two_container {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+/* Title styling */
+.tag_two_title h1 {
+    font-size: 3.5rem;
+    /* margin-bottom: 20px; */
+    text-align: center;
+    align-items: center;
+    line-height: 60px;
+}
+.tag_two_title h2{
+    color: #11aff8;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.tag_two_title img{
+    width: 200px;
+    height: 2px;
+}
+.card_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* gap: 30px; */
+    padding: 30px 170px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+.card:nth-child(1) {
+    border-top-left-radius: 20px;
+}
+.card:nth-child(3) {
+    border-top-right-radius: 20px;
+}
+.card_top{
+    border: 1px solid #fff;
+    height: 140px;
+}
+.card_top h1{
+    text-align: start;
+    padding: 20px 20px;
+}
+.card_bottom{
+    text-align: start;
+    background-color: #ffdb30;
+    border: 1px solid #fff;
+}
+.card_bottom h3{
+    padding: 40px 20px;
+}
+.card_bottom p{
+    padding: 0px 20px;
+    margin-top: -35px;
+    color: #000;
+}
+.card_bottom .card_btn{
+    padding: 20px 0px;
+}
+.card_bottom .card_btn button{
+    font-family: "Outfit", sans-serif;
+    border: none;
+    width: 120px;
+    height: 40px;
+    background: none;
+    font-weight: 600;
+    color: #fff;
+}
+.card:nth-child(2) .card_bottom {
+    background-color: #11aff8;
+}
+.card:nth-child(1) .card_btn button,
+.card:nth-child(3) .card_btn button {
+    color: #11aff8;
+}
+
+/* HOW WE WORK SECTION */
+.how_we_work{
+    display: flex;
+    padding: 30px 170px;
+}
+.how_we_work_container{
+
+}
+.how_we_work_upper_left img{
+    width: 350px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.how_we_work_upper_float{
+    display: none;
+}
+.how_we_work_lower{
+    background: #ffdb30;
+    height: 240px;
+    margin-top: -80px;
+}
+.how_we_work_lower_text{
+    padding: 100px 170px;
+    color: #fff;
+}

@@ -1,7 +1,7 @@
 .about{
-    padding: 160px 180px;
+    padding: 100px 170px;
     justify-content: center;
-    height: 100vh;
+    height: 90%;
 }
 
 .about_container{
@@ -10,7 +10,6 @@
     gap: 20px;
     height: 60%;
     position: relative;
-    /* background-color: blue; */
 }
 
 /* ABOUT LEFT */
@@ -18,13 +17,17 @@
     background: #11aff8;
     border-radius: 20px;
     height: 100%;
+    max-height: 80%;
     color: #fff;
 }
 .about_left_down{
-    padding: 40px 40px;
+    margin: 50px 0px 0px 30px;
 }
 .about_left_down h2{
-    margin-top: 130px;
+    margin-top: 120px;
+}
+.about_left_down p{
+    width: 80%;
 }
 
 
@@ -32,76 +35,77 @@
 .about_middle{
     border-radius: 20px;
     height: 100%;
+    max-height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
-.about_middle .about_middle_top{
+.about_middle_top{
     height: 50%;
+    max-height: 100%;
+    background: #11aff8;
+    border-radius: 20px;
+    overflow: hidden;
 }
 .about_middle .about_middle_top img{
     width: 100%;
     object-fit: cover;
     border-radius: 20px;
-    height: 100%;
     display: block;
 }
 .about_middle_bottom{
-    padding: 0px 20px;
+    height: 50%;
+    max-height: 100%;
+    margin-left: 20px;
+    width: 80%;
 }
 .about_middle_bottom h1{
-    /* margin-top: 30px; */
-}
-.about_middle_bottom h2{
-    /* margin-top: 30px; */
-}
-
-
-
-
-
-/* 
-.about_left .about_left_down{
-    color: #fff;
-    padding: 50px 40px;
-}
-.about_left .about_left_down h2{
-    width: 86%;
-    margin-top: 170px;
-}
-
-.about_middle_top img{
-    border-radius: 20px;
-    object-fit: cover;
-    display: block;
-}
-.about_middle_bottom{
-    padding: 0px 20px;
-}
-.about_middle_bottom h1{
-    margin-top: 16px;
+    margin-top: 10px;
     color: #11aff8;
 }
-.about_middle_bottom h3{
-    margin-top: 20px;
-    color: #ffdb32;
+.about_middle_bottom h2{
+    margin-top: 10px;
+    color: #ffdb30;
 }
-.about_middle_bottom p{
-    margin-top: 5px;
-    width: 95%;
-}
+
+/* ABOUT RIGHT */
 .about_right{
-    background: #fff;
     border-radius: 20px;
-    height: 500px;
+    height: 100%;
+    max-height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .about_right_top{
-    background: #ffdb32;
+    height: 50%;
+    max-height: 100%;
+    background: #ffdb30;
     border-radius: 20px;
-    height: 250px;
-    padding: 20px 40px;
+    overflow: hidden;
+}
+.about_right_bottom{
+    height: 50%;
+    max-height: 100%;
+    background: #000;
+    border-radius: 20px;
+    overflow: hidden; 
+}
+.about_right_bottom img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+}
+.about_right_top h1,
+.about_right_top h2{
+    margin: 20px 0px 0px 20px;
+    width: 90%;
     color: #fff;
 }
-.about_right_top h3{
-    margin-top: 100px;
-}
 .about_right_top p{
-    margin-top: 10px;
-} */
+    margin: 0px 0px 0px 20px;
+    width: 90%;
+    color: #fff;
+}
