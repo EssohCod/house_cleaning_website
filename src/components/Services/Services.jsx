@@ -10,7 +10,7 @@ import Tag_Three from "../../assets/steptodown.jpg"
 
 const Services = () => {
   return (
-    <div className='services'>
+    <div className='services' id='services'>
         <div className="service_tag_one">
             <div className="services_container">
             <div className="services_left">
@@ -140,7 +140,7 @@ const Services = () => {
             
         </div>
 
-        <div className="service_tag_three">
+        <div className="service_tag_three" id='blog'>
             <div className="tag_three_upper">
                 <img src={Tag_Three} alt="" />
             </div>

@@ -5,7 +5,7 @@ import Bar from "../../assets/bar.png"
 
 const Hero = () => {
   return (
-    <div className='home'>
+    <div className='home' id='home'>
         <div className="hero_img">
             <img src={Profile_Image} alt="Image" />
         </div>

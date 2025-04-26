@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar{
     position: absolute;
     top: 0;
@@ -20,14 +24,50 @@
     padding: 30px 170px;
     color: #fff;
 }
+
+/* ACTIVE CLASS */
+.navbar_link ul li {
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 15px;
+    transition: all 0.3s ease;
+}
+.navbar_link ul li.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #11aff8;
+}
+/* .navbar_link ul li:hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #11aff8;
+} */
+
+
 .navbar_logo h3 span {
     color: #11aff8;
+}
+.nav_link {
+    text-decoration: none;
+    color: inherit;
 }
 .navbar_link ul{
     display: flex;
     gap: 30px;
     font-size: 17px;
 }
+/* .navbar_link ul li.active {
+    border-bottom: 2px solid #11aff8;
+    color: #11aff8;
+} */
 .navbar_btn{
     display: flex;
     top: 0;
