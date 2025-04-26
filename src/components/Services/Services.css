@@ -127,7 +127,6 @@
 /* Title styling */
 .tag_two_title h1 {
     font-size: 3.5rem;
-    /* margin-bottom: 20px; */
     text-align: center;
     align-items: center;
     line-height: 60px;
@@ -144,7 +143,6 @@
 .card_container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* gap: 30px; */
     padding: 30px 170px;
 }
 .card{
@@ -153,6 +151,7 @@
     border-radius: 0;
     overflow: hidden;
     margin-bottom: 80px;
+    width: 100%;
 }
 .card:nth-child(1) {
     border-top-left-radius: 20px;
@@ -192,6 +191,12 @@
     background: none;
     font-weight: 600;
     color: #fff;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.card_btn button:hover{
+    text-decoration: underline;
+    transform: scale(1.02);
 }
 .card:nth-child(2) .card_bottom {
     background-color: #11aff8;
@@ -205,20 +210,43 @@
 .how_we_work{
     display: flex;
     padding: 30px 170px;
+    gap: 40px;
 }
-.how_we_work_container{
-
+.how_we_work_upper_left p{
+    width: 500px;
+}
+.how_we_work_upper_right{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: end;
+    width: 100%;
+}
+.how_we_work_upper_right button{
+    width: 140px;
+    height: 40px;
+    border: none;
+    background: #ffdb30;
+    font-family: "Outfit";
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 40px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.how_we_work_upper_right button:hover{
+    transform: scale(1.02);
 }
 .how_we_work_upper_left img{
     width: 350px;
     margin-top: 40px;
     border-radius: 20px;
 }
-
-.how_we_work_upper_float{
-    display: none;
-}
 .how_we_work_lower{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
     background: #ffdb30;
     height: 240px;
     margin-top: -80px;
@@ -226,4 +254,88 @@
 .how_we_work_lower_text{
     padding: 100px 170px;
     color: #fff;
+}
+.how_we_work_upper_float{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    width: 400px;
+    background-color: #11aff8;
+    z-index: 1;
+    margin-top: -120px;
+    color: #fff;
+    border-radius: 10px;
+}
+.float_one{
+    padding: 40px 40px;
+}
+.float_one h1,
+.float_two h1,
+.float_three h1{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.float_two{
+    padding: 0px 40px;
+}
+.float_three{
+    padding: 20px 40px;
+}
+
+
+/* TAG THREE */
+.tag_three_upper img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.tag_three_lower{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    gap: 50px;
+    padding: 30px 170px;
+}
+.tag_three_lower_left{
+    background: #ffdb30;
+    width: 70%;
+    height: 500px;
+    margin-top: -80px;
+    border-radius: 20px;
+}
+.lower_left_text{
+    padding: 90px 50px;
+}
+.lower_left_text hr{
+    outline: none;
+    border: none;
+    width: 95%;
+    height: 5px;
+    background-color: #11aff8;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.lower_left_text p{
+    font-size: 18px;
+    text-align: start;
+}
+.lower_left_text h5{
+    color: #11aff8;
+    margin-top: 15px;
+}
+.tag_three_lower_right{
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.tag_three_lower_right h4{
+    font-size: 14px;
+    color: #ff6b30;
+    margin-bottom: 10px;
+}
+.tag_three_lower_right h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
 }

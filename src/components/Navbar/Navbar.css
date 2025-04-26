@@ -39,5 +39,11 @@
     border-radius: 25px;
     cursor: pointer;
     background: none;
-    padding: 10px 40px;
+    padding: 14px 45px;
+    transition: 0.4s;
+}
+.navbar_btn:hover{
+    background: #ffdb32;
+    border: none;
+    transition: 0.4s;
 }

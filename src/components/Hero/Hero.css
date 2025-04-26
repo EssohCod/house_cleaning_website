@@ -79,7 +79,13 @@ hero_img {
     font-weight: 400;
     background: #ffdb30;
     text-align: center;
-    padding: 16px 55px;
+    padding: 16px 45px;
     border-radius: 60px;
     cursor: pointer;
+    transition: 0.4s;
+}
+.hero_btn:hover{
+  background: none;
+  border: 2px solid #fff;
+  transition: 0.4s;
 }
